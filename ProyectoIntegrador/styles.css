@@ -563,7 +563,9 @@ p.precio {
     height: 51px;
     padding: 16px;
     border-radius: 10px;
-    border: 1px solid var(--dark-bg-solid);
+    background-color: var(--light-bg-solid);
+    box-shadow: 0px 0px 10px 0px #00000040;
+    
     margin-bottom: 20px;
     margin-top: 40px;
 
@@ -580,16 +582,15 @@ p.precio {
 
 .div-carrito {
     display: flex;
-    align-items: center;
-    text-align: right;
     justify-content: space-between;
     width: 1220px;
     height: 195px;
-    padding: 16px;
     border-radius: 25px;
-    border: 1px solid var(--dark-bg-solid);
-    margin-bottom: 20px;
-
+    background-color: #FAFAFF;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    align-items: center;
+    padding: 16px;
+    margin-top: 20px;
 }
 .card-carrito {
     display: flex;
@@ -604,6 +605,7 @@ p.precio {
     gap: 10px;
     display: flex;
     align-items: center;
+    margin-left: 120px;
 }
 .card-input input {
     width: 89.48px;
@@ -624,5 +626,95 @@ p.precio {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+    margin-left: 120px;
+}
 
+.div-carrito img.btn-cancel{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+div.contenedor-resumen{
+    width: 1220px;
+    
+}
+
+section.resumen{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.resumen h1{
+    width: 224px;
+    height: 62px;
+    font-family: var(--alternative-font);
+    font-weight: 700;
+    font-size: var(--font-display);
+    border: 0 0 5px 0;
+    padding: 0 0 8px 0;
+    border-bottom: 5px solid var(--primary-solid);
+    text-justify: right;
+
+}
+
+.cuadro-resumen{
+    background-color: var(--light-bg-solid);
+    box-shadow: 0px 0px 10px 0px #00000040;
+    width: 572px;
+    height: 197px;
+    border-radius: 10px;
+    padding: 24px;
+
+
+}
+
+.cuadro-resumen div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: var(--base-font);
+    margin: 20px 0 25px 0;
+}
+
+.cuadro-resumen > div h4{
+    font-weight: var(--font-small);
+    font-weight: 600;
+    color: var(--dark-solid);
+}
+
+.cuadro-resumen > div p{
+    font-weight: var(--font-small);
+    font-weight: 600;
+    color: #747474;
+}
+
+.tot-resumen{
+    padding: 8px 0 0 0;
+    border-top: 2px solid var(--primary-solid);
+}
+
+div.tot-resumen h4{
+    font-size: var(--font-medium);
+    font-weight: 700;
+}
+
+div.tot-resumen p{
+    font-size: var(--font-medium);
+    font-weight: 700;
+}
+
+button.camino-pago-btn{
+    width: 572px;
+    height: 68.66px;
+    margin-top: 20px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    background-color: var(--primary-solid);
+    color: var(--light-font-solid);
+    border: transparent;
 }
