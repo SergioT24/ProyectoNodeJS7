@@ -536,6 +536,7 @@ p.precio {
 /* CARRITO */
 .main-carrito {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -636,13 +637,15 @@ p.precio {
 }
 
 div.contenedor-resumen{
+    display: flex;
     width: 1220px;
-    
+    justify-content: flex-end;    
 }
 
 section.resumen{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     margin-top: 50px;
 
 }
@@ -653,10 +656,8 @@ section.resumen{
     font-family: var(--alternative-font);
     font-weight: 700;
     font-size: var(--font-display);
-    border: 0 0 5px 0;
-    padding: 0 0 8px 0;
     border-bottom: 5px solid var(--primary-solid);
-    text-justify: right;
+    margin-bottom: 20px;
 
 }
 
@@ -709,11 +710,10 @@ div.tot-resumen p{
 button.camino-pago-btn{
     width: 572px;
     height: 68.66px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 25px;
     align-items: center;
     justify-content: center;
-    margin-left: 30px;
     background-color: var(--primary-solid);
     color: var(--light-font-solid);
     border: transparent;
