@@ -45,13 +45,17 @@
                     </select>
                     <h2>PRECIO</h2>
                     <label>MIN</label>
-                        <input type="number" value="min" name="precio" class="precio">
+                    <input type="number" value="min" name="precio" class="precio">
                     <label>MAX</label>
-                        <input type="number" value="max" name="precio" class="precio">
+                    <input type="number" value="max" name="precio" class="precio">
                     <h2>FILTRAR</h2>
-                    <label><input type="checkbox" value="nuevos" name="filtro">NUEVOS</label>
-                    <label><input type="checkbox" value="ofertas" name="filtro">OFERTAS</label>
-                    <label><input type="checkbox" value="edicion especial" name="filtro">EDICIÓN ESPECIAL</label>
+                    <ul>
+                        <li><label><input type="checkbox" value="nuevos" name="filtro">NUEVOS</label></li>
+                        <li><label><input type="checkbox" value="ofertas" name="filtro">OFERTAS</label></li>
+                        <li><label><input type="checkbox" value="edicion especial" name="filtro">EDICIÓN
+                                ESPECIAL</label></li>
+                        <li><label><input type="checkbox" value="favoritos" name="filtro">FAVORITOS</label></li>
+                    </ul>
                 </form>
             </aside>
             <div>
@@ -60,7 +64,10 @@
                         <div class="lanzCard-1">
                             <div>
                                 <section class="card">
-                                    <a href="./item.html"><img src="./multimedia/star-wars/trooper-1.webp" alt="card-trooper"></a>
+                                    <a href="./item.html"><img src="./multimedia/star-wars/trooper-1.webp"
+                                            onmouseover="this.src='./multimedia/star-wars/trooper-box.webp'"
+                                            onmouseout="this.src='./multimedia/star-wars/trooper-1.webp'"
+                                            alt="card-trooper"></a>
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">STAR WARS</p> <!-- COLECCION -->
@@ -72,7 +79,9 @@
                         <div class="lanzCard-2">
                             <div>
                                 <section class="card">
-                                    <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="card-pidgeotto">
+                                    <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="card-pidgeotto"
+                                        onmouseover="this.src='./multimedia/pokemon/pidgeotto-box.webp'"
+                                        onmouseout="this.src='./multimedia/pokemon/pidgeotto-1.webp'">
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">POKEMON</p><!-- COLECCION -->
@@ -84,7 +93,9 @@
                         <div class="lanzCard-3">
                             <div>
                                 <section class="card">
-                                    <img src="./multimedia/harry-potter/luna-1.webp" alt="card-luna">
+                                    <img src="./multimedia/harry-potter/luna-1.webp" alt="card-luna"
+                                        onmouseover="this.src='./multimedia/harry-potter/luna-box.webp'"
+                                        onmouseout="this.src='./multimedia/harry-potter/luna-1.webp'">
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">HARRY POTTER</p><!-- COLECCION -->
@@ -98,38 +109,45 @@
                 </div>
                 <div class="lanzamientos">
                     <div class="lanzCard">
-                        <div class="lanzCard-1">
+                        <div class="lanzCard-4">
                             <div>
                                 <section class="card">
-                                    <img src="./multimedia/star-wars/trooper-1.webp" alt="card-trooper">
+                                    <img src="./multimedia/star-wars/baby-yoda-1.webp" alt="card-baby-yoda"
+                                        onmouseover="this.src='./multimedia/star-wars/baby-yoda-box.webp'"
+                                        onmouseout="this.src='./multimedia/star-wars/baby-yoda-1.webp'">
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">STAR WARS</p> <!-- COLECCION -->
-                                <h3 class="producto">STORMTROOPER LIGHTSABER</h3><!-- PRODUTO -->
+                                <h3 class="producto">BABY YODA</h3><!-- PRODUTO -->
                                 <p class="precio">$ 1799,99</p><!-- PRECIO -->
                                 <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
                             </div>
                         </div>
-                        <div class="lanzCard-2">
+                        <div class="lanzCard-5">
                             <div>
                                 <section class="card">
-                                    <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="card-pidgeotto">
+                                    <img src="./multimedia/pokemon/dragonite-1.webp" alt="card-dragonite"
+                                        onmouseover="this.src='./multimedia/pokemon/dragonite-box.webp'"
+                                        onmouseout="this.src='./multimedia/pokemon/dragonite-1.webp'">
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">POKEMON</p><!-- COLECCION -->
-                                <h3 class="producto">PIDGEOTTO</h3><!-- PRODUTO -->
+                                <h3 class="producto">DRAGONITE</h3><!-- PRODUTO -->
                                 <p class="precio">$ 1799,99</p><!-- PRECIO -->
                                 <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
                             </div>
                         </div>
-                        <div class="lanzCard-3">
+                        <div class="lanzCard-6">
                             <div>
                                 <section class="card">
-                                    <img src="./multimedia/harry-potter/luna-1.webp" alt="card-luna">
+                                    <img src="./multimedia/harry-potter/hermione-1.webp"
+                                        onmouseover="this.src='./multimedia/harry-potter/hermione-box.webp'"
+                                        onmouseout="this.src='./multimedia/harry-potter/hermione-1.webp'"
+                                        alt="card-hermione">
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">HARRY POTTER</p><!-- COLECCION -->
-                                <h3 class="producto">LUNA LOVEGOOD LION MASK</h3><!-- PRODUTO -->
+                                <h3 class="producto">HERMIONE</h3><!-- PRODUTO -->
                                 <p class="precio">$ 1799,99</p> <!-- PRECIO -->
                                 <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
                             </div>
@@ -139,38 +157,44 @@
                 </div>
                 <div class="lanzamientos">
                     <div class="lanzCard">
-                        <div class="lanzCard-1">
+                        <div class="lanzCard-7">
                             <div>
                                 <section class="card">
-                                    <img src="./multimedia/star-wars/trooper-1.webp" alt="card-trooper">
+                                    <img src="./multimedia/star-wars/luke-1.webp" alt="card-luke"
+                                        onmouseover="this.src='./multimedia/star-wars/luke-box.webp'"
+                                        onmouseout="this.src='./multimedia/star-wars/luke-1.webp'">
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">STAR WARS</p> <!-- COLECCION -->
-                                <h3 class="producto">STORMTROOPER LIGHTSABER</h3><!-- PRODUTO -->
+                                <h3 class="producto">LUKE</h3><!-- PRODUTO -->
                                 <p class="precio">$ 1799,99</p><!-- PRECIO -->
                                 <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
                             </div>
                         </div>
-                        <div class="lanzCard-2">
+                        <div class="lanzCard-8">
                             <div>
                                 <section class="card">
-                                    <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="card-pidgeotto">
+                                    <img src="./multimedia/pokemon/charmander-1.webp" alt="card-charmander"
+                                        onmouseover="this.src='./multimedia/pokemon/charmander-box.webp'"
+                                        onmouseout="this.src='./multimedia/pokemon/charmander-1.webp'">
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">POKEMON</p><!-- COLECCION -->
-                                <h3 class="producto">PIDGEOTTO</h3><!-- PRODUTO -->
+                                <h3 class="producto">CHARMANDER</h3><!-- PRODUTO -->
                                 <p class="precio">$ 1799,99</p><!-- PRECIO -->
                                 <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
                             </div>
                         </div>
-                        <div class="lanzCard-3">
+                        <div class="lanzCard-9">
                             <div>
                                 <section class="card">
-                                    <img src="./multimedia/harry-potter/luna-1.webp" alt="card-luna">
+                                    <img src="./multimedia/harry-potter/harry-1.webp" alt="card-harry"
+                                        onmouseover="this.src='./multimedia/harry-potter/harry-box.webp'"
+                                        onmouseout="this.src='./multimedia/harry-potter/harry-1.webp'">
                                     <p class="cajaNuevo">NUEVO</p>
                                 </section>
                                 <p class="coleccion">HARRY POTTER</p><!-- COLECCION -->
-                                <h3 class="producto">LUNA LOVEGOOD LION MASK</h3><!-- PRODUTO -->
+                                <h3 class="producto">HARRY POTTER</h3><!-- PRODUTO -->
                                 <p class="precio">$ 1799,99</p> <!-- PRECIO -->
                                 <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
                             </div>
