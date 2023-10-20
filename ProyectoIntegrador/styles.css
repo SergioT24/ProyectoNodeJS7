@@ -636,9 +636,14 @@ p.precio {
     align-items: center;
     margin-left: 120px;
 }
-.card-input input {
+.card-input p {
     width: 89.48px;
     height: 40px;
+    font-family: var(--base-font);
+    font-weight: 700;
+    font-size: var(--font-medium);
+    text-align: center;
+    padding: 5px;
     border: 0.5px solid #C9C9C9;
 
 }
@@ -680,7 +685,7 @@ section.resumen{
 
 .resumen h1{
     width: 224px;
-    height: 62px;
+    height: 54px;
     font-family: var(--alternative-font);
     font-weight: 700;
     font-size: var(--font-display);
@@ -696,7 +701,7 @@ section.resumen{
     height: 197px;
     border-radius: 10px;
     padding: 24px;
-
+    gap: 20px;
 
 }
 
@@ -705,17 +710,17 @@ section.resumen{
     justify-content: space-between;
     gap: 20px;
     font-family: var(--base-font);
-    margin: 20px 0 25px 0;
+    margin: 10px 0 20px 0;
 }
 
 .cuadro-resumen > div h4{
-    font-weight: var(--font-small);
+    font-size: var(--font-small);
     font-weight: 600;
     color: var(--dark-solid);
 }
 
 .cuadro-resumen > div p{
-    font-weight: var(--font-small);
+    font-size: var(--font-small);
     font-weight: 600;
     color: #747474;
 }
