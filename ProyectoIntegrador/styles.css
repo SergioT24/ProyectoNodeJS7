@@ -856,6 +856,8 @@ div.footer-login{
 }
 
 form > p{
+    display: flex;
+    justify-content: space-around;
     color: var(--secondary-solid);
     font-size: var(--font-xsmall);
     font-weight: 400;
