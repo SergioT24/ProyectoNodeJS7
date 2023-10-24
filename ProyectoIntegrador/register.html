@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
 
 
 </head>
+
 <body>
     <header>
         <div>
@@ -23,8 +25,8 @@
                 <a href="./shop.html" target="_blank">VER TIENDA</a> </span>
             </li>
             <li><a href="#">ADMIN</a></li>
-            <li><a href="#">SALIR</a></li>
-        
+            <li><a href="./index.html">SALIR</a></li>
+
         </ul>
     </header>
 
@@ -32,34 +34,41 @@
         <h1>
             CREAR TU CUENTA
         </h1>
+        <br>
+        <br>
         <h2>
             Completa el formulario para ser parte del mundo de los Funkos
         </h2>
         <form action="" type="text">
-                Nombre: <input type="text" id="Nombre" placeholder="Frank"> 
+            <div class="container-form">
+                <label>Nombre: <input type="text" id="Nombre" placeholder="Frank"> </label>
                 <br>
-                Apellido: <input type="text" placeholder="potter">
+                <label>Apellido: <input type="text" placeholder="potter"></label>
                 <br>
-                Email: <input type="email" name="email" id="email" placeholder="funkoshop@correo.com"> <br>
-                Contraseña: <input type="password" placeholder="*******">
+                <label>Email: <input type="email" name="email" id="email" placeholder="funkoshop@correo.com"></label>
                 <br>
-                Repita Contraseña: <input type="password" placeholder="*******">
+                <label>Contraseña: <input type="password" placeholder="*******"></label>
+                <br>
+                <label>Repita Contraseña: <input type="password" placeholder="*******"></label>
+            </div>
                 <div>
-                    <input type="button" value="Registrar">
+                    <br>
+                    <br>
+                    <button>Registrar</button>
                     <input type="checkbox" name="Acepto">
-                    <p>Términos y Condiciones</p>
+                    <p>acepto <a href="#"> términos y condiciones</a></p>
+                    <br>
+                    <a href="#">Olvidé mi contraseña</a>
                 </div>
-                <br>
-                <p>Olvidé mi contraseña</p>
         </form>
     </main>
 
     <footer>
         <div>
             <ul>
-                <li><a href="./shop.html" target="_blank">SHOP</a></li>
-                <li><a href="#">REGISTRARME</a></li>
-                <li><a href="#">INGRESAR</a></li>
+                <li><a href="./shop.html" target="_self">SHOP</a></li>
+                <li><a href="./register.html">REGISTRARME</a></li>
+                <li><a href="./login.html">INGRESAR</a></li>
                 <li><a href="#">CONTACTO</a></li>
             </ul>
             <span>
@@ -69,4 +78,5 @@
         <p>All rights reserved 2023 - Funkoshop &copy;</p>
     </footer>
 </body>
+
 </html>
