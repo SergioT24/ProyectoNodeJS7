@@ -28,19 +28,32 @@
         </ul>
     </header>
 
-    <main>
-        <h1>
+    <main class="main-login">
+        <h1 class="titulo-login">
             INGRESAR A MI CUENTA
         </h1>
         <form action="" type="text">
-                Email: <input type="email" name="email" id="email" placeholder="funkoshop@correo.com"> <br>
-                Contraseña: <input type="password" placeholder="*******">
-                <br>
-                <div>
-                    <input type="button" value="Ingresar">
-                    <input type="checkbox" name="Recordarme" id="Recordarme">
+                <div class="form-login">
+
+                    <div class="login-email">
+                        <p>Email:</p>
+                        <input type="email" name="email" id="email" placeholder="funkoshop@correo.com">
+                    </div>
+
+                    <div class="login-password">
+                        <p>Contraseña:</p>
+                        <input type="password" placeholder="      * * * * * * *">
+                    </div>
+                    
                 </div>
-                <br>
+                <div class="footer-login" >
+                    <a href="shop.html" target="_blank"><input class="login-btn" type="button" value="Ingresar"></a>
+                    <div class="check-footer-login">
+                        <input type="checkbox" name="Recordarme" id="Recordarme">
+                        <p>Recordarme</p>
+                    </div>
+                </div>
+                
                 <p>Olvidé mi contraseña</p>
         </form>
     </main>
