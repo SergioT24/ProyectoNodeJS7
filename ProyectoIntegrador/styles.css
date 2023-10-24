@@ -911,9 +911,6 @@ div.container-form{
     gap: 5px;
 }
 .form-register label{
-    margin-right: 30px;
-}
-.form-register input {
-    margin-left: 30px;
-    
+    display: flex;
+    justify-content: space-between;
 }
