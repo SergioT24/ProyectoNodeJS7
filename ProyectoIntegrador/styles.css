@@ -391,7 +391,7 @@ aside{
 form{
     width: 243px;
     text-align: left;
-    margin-left: 110px;
+    margin-left: 80px;
     margin-top: 68px;
 }
 
@@ -873,10 +873,6 @@ main h1,h2, main form div {
     text-align: center;
 }
 
-main form .container-form{
-    display: flex;
-    flex-direction: column;
-}
 main form .container-form input {
     outline: none;
     border-color: #ffffff #ffffff red #ffffff;
@@ -891,4 +887,33 @@ main form button {
     height: 30px;
     color: #ffffff;
     margin-right: 15px;
+}
+
+main.main-register{
+    display: flex;
+    flex-direction: column;
+    height: 526px;
+}
+main.main-register .form-register{
+    margin: 30px auto;
+    width: 457px;
+}
+.button-check-register{
+    text-align: left;
+    display: flex;
+    margin-top: 40px;
+}
+div.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    gap: 5px;
+}
+.form-register label{
+    margin-right: 30px;
+}
+.form-register input {
+    margin-left: 30px;
+    
 }
