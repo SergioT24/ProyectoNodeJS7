@@ -877,11 +877,10 @@ main form .container-form{
     display: flex;
     flex-direction: column;
 }
-main form input{
+main form .container-form input {
     outline: none;
     border-color: #ffffff #ffffff red #ffffff;
     border-style: solid;
-
 }
 
 main form button {
