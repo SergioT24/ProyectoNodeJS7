@@ -873,9 +873,6 @@ main h1,h2, main form div {
     text-align: center;
 }
 
-main form, main form p {
-    display: unset;
-}
 main form .container-form{
     display: flex;
     flex-direction: column;
