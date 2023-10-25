@@ -883,10 +883,10 @@ main form button {
     font-family: var(--base-font);
     background-color: red;
     border: none;
-    width: 80px;
-    height: 30px;
+    width: 103px;
+    height: 39.06px;
     color: #ffffff;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 main.main-register{
@@ -899,9 +899,10 @@ main.main-register .form-register{
     width: 457px;
 }
 .button-check-register{
-    text-align: left;
     display: flex;
     margin-top: 40px;
+    justify-content: center;
+    align-items: center;
 }
 div.container-form{
     display: flex;
@@ -913,4 +914,49 @@ div.container-form{
 .form-register label{
     display: flex;
     justify-content: space-between;
+    font-family: var(--base-font);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.form-register label input {
+    width: 208.99px;
+    height: 25.18px;
+    font-family: var(--base-font);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.04rem;
+    text-align: left;
+    color: #B9B9B9;
+
+}
+.main-register h2 {
+    font-family: var(--alternative-font);
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.04rem;
+}
+.main-register h1 {
+    font-family: var(--alternative-font);
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.04rem;
+}
+.button-check-register p{
+    margin-left: 5px;
+    font-family: var(--base-font); 
+    font-size: 1.8rem; 
+    font-weight: 400; 
+    line-height: 22px; 
+    letter-spacing: 0rem;
+    color: #1F1F1F
+}
+.button-check-register p a {
+    font-size: 1.8rem;
+    color:#1D84B5
 }
