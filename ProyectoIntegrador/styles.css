@@ -864,5 +864,65 @@ form > p{
     cursor: pointer;
 }
 
-/* register */
+/* admin */
 
+div.contenedor-search-admin{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.contenedor-search-admin img{
+    width: 42px;
+    height: 42px;
+    margin-right: 7px;
+}
+
+.contenedor-search-admin input{
+    width: 530px;
+    height: 44px;
+}
+
+div.title-admin{
+    display: flex;
+    justify-content: space-between;
+    width: 1126px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.title-admin h1{
+
+}
+
+
+.title-admin div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.title-admin h2{
+    font-family: var(--base-font);
+    font-weight: 700;
+    font-size: var(--font-small);
+
+}
+
+
+.title-admin p{
+    width: 25px;
+    height: 25px;
+    color: var(--light-font-solid);
+    font-weight: 300;
+    background-color: var(--primary-solid);
+    border-radius: 3px;
+    font-size: 30px;
+    
+}
+
+table.tabela-admin{
+    width: 1126px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
