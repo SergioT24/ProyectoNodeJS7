@@ -31,32 +31,37 @@
         <section>
             <h1 class="titulo-create">CREAR NUEVO ITEM</h1>
             <div class="categoria-licencia">
-                <label for="">Categoria: <select name="brands" id="brands" class="div-label"></select></label>
-                <label for="">Licancia: <select name="brands" id="brands" class="div-label"></select></label>
+                <label for="">Categoria: <select name="brands" id="brands" class="div-label">
+                    <option disabled selected>Seleccionar</option>                    
+                </select></label>
+                <label for="">Licancia: <select name="brands" id="brands" class="div-label">
+                    <option disabled selected>Seleccionar</option> 
+                </select></label>
             </div>
             <div class="nombre-producto">
-                <label>Nombre del producto:<input type="text" id="Nombre" placeholder="Frank"></label>
+                <label>Nombre del producto:<input type="text" id="Nombre" placeholder="Kakashi Hatake Shippuden Saga"></label>
             </div>
-            <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
-            <div class="nombre-producto">
-                <label>SKU:<input type="text" id="Nombre" placeholder="Frank"></label>
-                <label>Precio:<input type="text" id="Nombre" placeholder="Frank"></label>
-                <label>Stock:<input type="text" id="Nombre" placeholder="Frank"></label>
+            <textarea name="descripcion" cols="30" rows="10" placeholder="Descripcion del porducto"></textarea>
+            <div class="sku-precio-stock">
+                <label>SKU:<input type="text" id="Nombre" placeholder="SSK111AB001"></label>
+                <label>Precio:<input type="text" id="Nombre" placeholder="$ 0.000,00"></label>
+                <label>Stock:<input type="text" id="Nombre" placeholder="0" style="width: 55px; margin-right: 0px;"></label>
             </div>
-            <div class="nombre-producto">
-                <label>Nombre:<input type="text" id="Nombre" placeholder="Frank"><select name="brands" id="brands" class="div-label"></select></label>
-                
+            <div class="sku-precio-stock">
+                <label  for="">Descuento:<input type="text" id="Nombre" placeholder="0%" style="width: 55px; margin-right: 20px;"></label>
+                <label for="">Cuotas:<select name="brands" id="brands" class="div-label">
+                    <option disabled selected>3 Cuotas sin interés</option> 
+                </select></label>                
             </div>
-            <div>
-                <label>Imagenes:
-                    <button>Elegir archivos</button>
-                    <p>No se ha seleccionado ningún archivo</p>
-                </label>
+            <div class="cargar-archivo">
+                <label>Imagenes:</label>
+                <button><a href="">Elegir archivos</a></button>
+                <p>No se ha seleccionado ningún archivo</p>
             </div>                   
         </section>
         <div class="agregar-limpiar">
-            <a><input type="button" value="Agregar Producto"></a>
-            <a><input type="button" value="Limpiar"></a>
+            <button><a href="">Agregar Producto</a></button>
+            <button><a href="">Limpiar</a></button>
         </div>
     </main>    
 
