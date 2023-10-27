@@ -970,6 +970,8 @@ div.container-form{
     margin-top: 36px;
 }
 .titulo-create {
+    width: 431px;
+    height: 49px;
     font-family: var(--alternative-font);
     font-size: 4.2rem;
     font-weight: 700;
@@ -979,6 +981,8 @@ div.container-form{
     color: #1F1F1F;
 }
 .categoria-licencia {
+    height: 44.28px;
+    width: 827.63px;
     display: flex;
     justify-content: space-between;
     font-family: var(--base-font);
@@ -987,10 +991,20 @@ div.container-form{
     line-height: 29px;
     text-align: left;
 }
+.categoria-licencia label {
+    height: 44.28px;
+    width: 387.29px;
+}
+.categoria-licencia label select {
+    margin-left: 15px;
+}
 .nombre-producto {
-    display: flex;    
+    width: 581.06px;
+    height: 29px;    
 }
 .nombre-producto label {
+    width: 267px;
+    height: 27.36px;
     font-family: var(--base-font);
     font-size: 2.4rem;
     font-weight: 400;
@@ -999,20 +1013,69 @@ div.container-form{
     text-align: left;
 }
 .nombre-producto label input {
+    width: 296px;
+    height: 27.36px;
     border: none;
     border-radius: 0;
     border-bottom: 2px solid var(--primary-solid);
     font-size: 16px;
-    padding: 5px;
+    margin-left: 20px;
 }
+.main-create textarea {
+    width: 827.63px;
+    height: 194.83px;
+    border-radius: 4px;
+    border: 1px solid var(--dark-bg-solid);
+    font-family: var(--base-font);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.04rem;
+    text-align: left;
+
+}
+.sku-precio-stock {
+    height: 29px;
+    width: 662.4px;   
+}
+
+.sku-precio-stock label {
+    font-family: var(--base-font);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.04rem;
+    text-align: left; 
+    width: 79px;
+    height: 29px;   
+}
+.sku-precio-stock label input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid var(--primary-solid);
+    font-size: 1.6rem;
+    padding: 5px;
+    width: 130.26px;
+    height: 27.36px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.sku-precio-stock label select {
+    margin-left: 15px;
+    width: 333px;
+    height: 44px;
+}
+
 .agregar-limpiar {
     position: relative;
     left: 115.55px;
+    margin-bottom: 40px;
+    width: 403px;
+    height: 44.33px;
 }
-.agregar-limpiar input {
+.agregar-limpiar button {
     width: 175px;
     height: 44.33px;
-    left: 115.55px;
     font-family: var(--base-font);
     font-size: 1.4rem;
     font-weight: 600;
@@ -1026,16 +1089,48 @@ div.container-form{
 .div-label {
     width: 243.03px;
     height: 44.28px;
-    top: 268.58px;
-    left: 259.8px;
     border-radius: 6px;
 }
-.main-create textarea {
-    width: 827.63px;
-    height: 194.83px;
-    top: 413.86px;
-    left: 115.55px;
-    border-radius: 4px;
-    border: 1px solid var(--dark-bg-solid);
+.cargar-archivo {
+    display: flex;
+    align-items: center;
+    width: 519.73px;
+    height: 29px;
 }
-
+.cargar-archivo label {
+    width: 125px;
+    height: 29px;
+    font-family: var(--base-font);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.04rem;
+    text-align: right;
+}
+.cargar-archivo button {
+    width: 125.24px;
+    height: 25.29px;
+    border-radius: 3px;
+    border: 1px solid #30343FB2;
+    margin-left: 5px;
+}
+.cargar-archivo button a{
+    font-family: Arial;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.04rem;
+    text-align: right;
+    color: #1F1F1F;
+}
+.cargar-archivo p {
+    width: 257px;
+    height: 16px;
+    font-family: arial;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.04rem;
+    text-align: right;
+    color: #1F1F1F;
+}
