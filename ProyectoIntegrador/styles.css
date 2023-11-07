@@ -869,7 +869,7 @@ form > p{
 
 /* register */
 
-main h1,h2, main form div {
+main main form div {
     text-align: center;
 }
 
@@ -1133,4 +1133,44 @@ div.container-form{
     letter-spacing: 0.04rem;
     text-align: right;
     color: #1F1F1F;
+}
+.with-submenu {
+    font-size: var(--font-medium);
+    padding: var(--spacings-8) var(--spacings-16);
+    display: inline-block;
+    transition: background .3s ease-in-out;
+}
+.with-submenu:hover {
+    background-color: var(--primary-solid);        
+}
+
+.with-submenu:hover .submenu {
+    display: block;
+    background-color: #30343f;   
+}
+.submenu-item:hover {
+    transition: background .3s ease-in-out;
+    background-color: var(--primary-solid);
+}
+.submenu-item {
+    display: block;
+    padding: var(--spacings-8) var(--spacings-16);
+}
+
+.submenu{
+    display: none;
+    width: 300px;
+    position:absolute;
+    background-color: #30343f;
+    left: 0;
+    top: 40px;
+}
+.submenu_link {
+    display: block;    
+    position:absolute;
+    padding: var(--spacings-8);
+    font-size: var(--font-medium) var(--spacings-16);
+}
+.submenu_link:hover {
+    background-color: var(--primary-solid);
 }
